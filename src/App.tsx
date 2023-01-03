@@ -72,9 +72,12 @@ const AppContainer = styled.div`
   align-items: center;
   width: 100vw;
   flex-direction: column;
-  @media screen and (min-width: 1050px) {
-    width: 100vw;
+  @media screen and (min-width: 480px) {
     height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  @media screen and (min-width: 1050px) {
     flex-direction: row;
     position: relative;
     justify-content: space-between;
