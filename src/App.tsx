@@ -72,6 +72,7 @@ const AppContainer = styled.div`
   align-items: center;
   width: 100vw;
   flex-direction: column;
+  overflow-x: hidden;
   @media screen and (min-width: 480px) {
     height: 100vh;
     overflow: hidden;
